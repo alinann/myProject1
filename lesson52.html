@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img1.jpg">
+
+</head>
+<h1>Анкета учащегося</h1>
+<body>
+    
+    <form>
+        <label for="user_name"> Введите имя: </label>
+        <input type="text" placeholder="type name"  id="user_name"> 
+        <br>        <br>
+        <label for="user_surname"> Введите фамилию: </label>
+        <input type="text" placeholder="type surname"  id="user_surname"> 
+        <br>        <br>
+        <label for="email">Введите почту</label>
+        <input type="email" placeholder="type email" id="email" >
+        <br>        <br>
+        <p> Введите дату рождения</p>
+        <input type="date" placeholder="type date of birth">
+        <br> <br>
+        <input type="password" placeholder="tyype password">
+        <br><br>
+        <input type="number" placeholder="type age">
+        <br><br>
+        <p>Какое направление интересует?</p>
+        <input type="checkbox" id="f">
+        <label for="f ">Frontend</label>
+        <br>
+        <input type="checkbox" id="b">
+        <label for="b ">Backend</label>
+        <br>
+        <input type="checkbox" id="q">
+        <label for="q ">QA</label>
+        <br>        <br>
+        <p>Откуда о нас узнали?</p>
+        <input type="radio" id="sait" name="otkuda" value="male">
+        <label for="sait">С сайта</label>
+        <br>  
+        <input type="radio" id="insta" name="otkuda" value="female">
+        <label for="female">В инсте</label>
+        <br>     
+        <input type="radio" id="insta" name="otkuda" value="female">
+        <label for="female">Другое</label>
+        <br><br>
+        <input type="color">
+        <br>
+        <br>
+        <input type="range" min="0" max="100">
+        <br>
+        <br>
+        <input type="submit" value="send">
+        <button> Send</button>
+        <br>
+        <br>
+        <input type="file">
+        <br>
+        <br>
+        <input type="email">
+
+    </form>
+</body>
+</html>
