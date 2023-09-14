@@ -1,0 +1,33 @@
+.sinii-text{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 5px;
+    
+}
+
+.dlinyi-text{
+    color: fuchsia;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: right;
+    letter-spacing: 20px;
+}
+
+.zacherknutyi-text{
+    color: fuchsia;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 20px;
+    text-decoration: line-through;
+}
+
+.podcherknutyi-text{
+    color: fuchsia;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    text-decoration: underline;
+}
